@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch index.ts"
+    "dev": "ts-node-dev --respawn src/index.ts"
   },
   "author": "",
   "license": "ISC",
